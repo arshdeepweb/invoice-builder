@@ -650,7 +650,7 @@ export default function InvoiceCreator() {
                      <li>Upload a high-resolution logo for best results.</li>
                      <li>Clearly describe each line item.</li>
                      <li>Double-check client details and payment terms.</li>
-                     <li>Use the 'Notes' section for special instructions.</li>
+                     <li>Use the Notes section for special instructions.</li>
                   </ul>
                </div>
             </div>
