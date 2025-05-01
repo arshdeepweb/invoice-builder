@@ -1,11 +1,12 @@
-"use client";
+'use client';
+
 import { useState, useRef, useEffect } from "react"; // Added useEffect
 import { format } from "date-fns";
 import Image from "next/image";
 import Link from "next/link";
 import InvoicePDF from "../../components/pdf/invoice-1"; // Make sure this path is correct
 import dynamic from 'next/dynamic';
-const PDFDownloadLink = dynamic(() => import('@react-pdf/renderer').then(mod => mod.PDFDownloadLink), { ssr: false });
+import { PDFDownloadLink } from '@react-pdf/renderer';
 import { UploadCloud, Plus, Trash2, FileText, Download } from 'lucide-react'; // Example using lucide-react for icons
 
 // Helper function to extract currency symbol
